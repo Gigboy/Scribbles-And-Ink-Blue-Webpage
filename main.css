@@ -1,0 +1,1685 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+@font-face {
+    font-family: 'barneyworldregular';
+    src: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/barnwrld-webfont.eot');
+    src: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/barnwrld-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/barnwrld-webfont.woff') format('woff'),
+         url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/barnwrld-webfont.ttf') format('truetype'),
+         url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/barnwrld-webfont.svg#barneyworldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'icomoon';
+    src:url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/icomoon.eot?-67yv4o');
+    src:url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/icomoon.eot#iefix-67yv4o') format('embedded-opentype'),
+        url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/icomoon.woff?-67yv4o') format('woff'),
+        url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/icomoon.ttf?-67yv4o') format('truetype'),
+        url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Fonts/icomoon.svg?-67yv4o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a{
+  text-decoration: none;
+  outline: none !important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  background-color: #9edcff;
+}
+.wrapper {
+  max-width: 980px;
+}
+.clr {
+  clear: both;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+.header-container {
+  box-shadow:         0px 3px 5px 0px rgba(100, 156, 187, 0.75);
+  background: #d7f0fe;
+  border-bottom: 2px solid #def2fe;
+  position: relative;
+}
+#home .main-container{
+  background-color: #00ab67;
+  border-bottom: 1px solid #32b984;
+}
+.footer-container {
+  color: white;
+  background-color: #007dc3;
+  padding: 15px 0;
+  border-top:1px solid #1992c2; 
+  box-shadow:         0px -3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+footer .networks{
+  float: right;
+}
+footer .networks#en{
+  display: none;
+}
+footer .networks img {
+  margin-right: 10px;
+  width: 35px;
+}
+footer .selector{
+  margin: 7px 0 0 10px;
+}
+footer .legal{
+  width: 100%;
+  color: #ffffff;
+  font: 12px/24px Arial;
+  text-align: center;
+}
+footer .legal span{
+  display: block;
+}
+footer .legal a {
+  color: #FFFFFF;
+  margin-left: 10px;
+  outline: medium none;
+}
+footer .legal img{
+  margin-top: 10px;
+}
+.icon-menu:before {
+  content: "\e600";
+  color: #1596d3;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+.nav-container{
+  position: absolute;
+  width: 100%;
+  background-color: #c8e9fb;
+  z-index: 99;
+}
+.nav-container.exte nav{
+  border-bottom: 2px solid #d5edfd;
+}
+nav a.menu-button {
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: -51px;
+}
+nav a.menu-button:hover{
+  background: transparent;
+}
+#logo {
+  display: inline-block;
+  margin: 7px 0 10px 15px;
+  width: 86px;
+}
+.nav-container nav ul {
+  padding: 0;
+  overflow: hidden;
+  height: 0;
+  text-align: center;
+  transition: height 1.0s ease, margin 1s ease 0s;
+  width: 320px;
+  margin: 0 auto;
+}
+.nav-container.exte nav ul{
+  height: 185px;
+  margin: 20px auto;
+  z-index: 0;
+  padding: 5px 0;
+}
+.nav-container nav ul li{
+  margin-bottom: 10%;
+}
+nav ul li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 45px;
+}
+nav a {
+  border: 3px solid #FFFFFF;
+  border-radius: 84px;
+  height: 61px;
+  display: block;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  width: 61px;
+  box-shadow:         4px 4px 5px 0px rgba(156, 195, 216, 0.68);
+}
+nav a:hover, .nav-container nav ul li.selected a{
+  background-color: #2fce8f;
+}
+nav a:hover>span, .nav-container nav ul li.selected span{
+  color: #00ab67;
+}
+nav a span {
+  color: #000;
+  font: 18px/16px 'barneyworldregular';
+  text-decoration: none;
+}
+nav li span{
+  bottom: -39%;
+}
+li#navGames img{
+  margin-top: 30%;
+  width: 76%
+}
+.nav-container ul li#navGames{
+  margin-left: 0;
+}
+.nav-container ul li#navActivities{
+  margin-left: 0;
+}
+li#navGames span {
+  left: 10%;
+}
+li#navVideos img {
+  margin-top: 19%;
+  width: 65%;
+}
+li#navVideos span {
+  left: 0;
+}
+li#navMusic img {
+  height: 94%;
+  margin: 6% 0 0 -10%;
+}
+li#navMusic span {
+  left: 14%;
+}
+li#navFriends img {
+  margin-top: 13%;
+  width: 69%;
+}
+li#navFriends span {
+  left: -4px;
+}
+li#navActivities img {
+  margin-top: 20%;
+  width: 58%;
+}
+li#navActivities span {
+  left: -13px;
+}
+li#navParents img {
+  margin-top: 27%;
+  width: 73%;
+}
+li#navParents span {
+  left: -4px;
+}
+.main-container{
+  border-bottom: 1px solid #88E0AC;
+  overflow: auto;
+}
+.main-container .main-container-bg .pageTitle{
+  overflow: hidden;
+}
+.main-container .main-container-bg .pageTitle h1{
+  font: 28px/30px 'barneyworldregular';
+  color: #c6168d;
+  margin: 15px 0 0 15px;
+}
+
+.main-container .main-container-bg h2{
+  font: 24px/24px 'barneyworldregular';
+  color: #c6168d;
+  margin: 15px 0 0 15px;
+}
+
+/* ==========================================================================
+   Home
+   ========================================================================== */
+
+#home .main-container .imgBarney{
+  display: none;
+}
+#home .main-container .wrapSlider {
+  display: inline-block;
+  margin:0 0 0 3%;
+  padding-top: 40px;
+  position: relative;
+  z-index: 97;
+  width: 95%;
+}
+#home .main-container{
+  width: 100%;
+  background-color: #c8e9fb;
+}
+#home .main-container .wrapSlider .bgSlide {
+  bottom: 30px;
+  position: absolute;
+  right: 5px;
+  z-index: 9;
+}
+#home .bxslider span{
+  height: 237px;
+}
+#home .bx-wrapper .bx-caption {
+  padding: 5% 17%;
+  text-align: center;
+  width: 70%;
+}
+#home .bx-pager.bx-default-pager {
+  display: none;
+}
+#home .bx-wrapper .bx-controls-direction a{
+  top: 35%;
+}
+#home .bx-wrapper .bx-caption span{
+  font: 21px/23px 'barneyworldregular';
+}
+#home .wrapPromos {
+  background-color: #00AB67;
+  margin-top: -39px;
+  padding: 95px 0 2px;
+  text-align: center;
+  width: 100%;
+}
+#home .promo{
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+#home .promo img{
+  display: block;
+  border-radius: 10px;
+  border: 7px solid #007d4a;
+  box-shadow:         1px 3px 7px 0px rgba(0, 151, 91, 0.75);
+}
+#home .promo span{
+  display: block;
+  font: 16px/20px 'barneyworldregular';
+  color: #ffffff;
+  margin: 15px 0 20px;
+}
+#home .promo a{
+  text-decoration: none;
+  outline: none;
+}
+
+/* ==========================================================================
+   Friends
+   ========================================================================== */
+
+#friends .main-container-bg{
+  background: #9dd05b;
+  overflow: auto;
+}
+#friends .pageTitle{
+  background-color: rgba(236, 252, 214, 0.53);
+}
+#friends #wrapFriendsMenu {
+  max-width: 980px;
+  padding-top: 15px;
+  text-align: center;
+}
+#friends #wrapFriendsInfo{
+  max-width: 860px;
+  background: url('bg_friends_768.jpg') repeat scroll 0 -45px #00ab67;
+  width: 95%;
+  border-radius: 15px;
+  box-shadow:         3px 4px 5px 0px rgba(153, 202, 229, 0.33),  inset 0px 0px 1px 3px rgba(2, 108, 153, 1);
+  border: 8px solid #0696d7;
+  margin:10px auto 30px;
+  text-align: center;
+}
+#friends .itemFriendsMenu{
+  height: 68px;
+  width: 68px;
+  border-radius: 110px;
+  display: inline-block;
+  background-color: #c8e9fb;
+  overflow: hidden;
+  border: 4px solid #00ab67;
+  box-shadow:         3px 4px 5px 0px rgba(153, 202, 229, 0.33),  inset 0px 0px 1px 3px rgba(0, 122, 71, 1);
+}
+#friends .itemFriendsMenu:hover, #friends .itemFriendsMenu.selected{
+  background-color: #a7d59e;
+  border-color:#0696d7;
+  box-shadow:         3px 4px 5px 0px rgba(153, 202, 229, 0.33),  inset 0px 0px 1px 3px rgba(2, 108, 153, 1);
+}
+#friends #friendBarney{
+  margin-left: 0;
+}
+#friends #friendBarney img {
+  height: auto;
+  margin: 4% 3% 0 0;
+  width: 95%;
+}
+#friends #friendRiff img {
+  height: auto;
+  margin: 9% 0 0 -9%;
+  width: 83%;
+}
+#friends #friendBJ img {
+  height: auto;
+  margin: 10.3% 0 0 -3%;
+  width: 89%;
+}
+#friends #friendBabyBop img {
+  height: auto;
+  margin: 6% 0 0 4%;
+  width: 76%;
+}
+#friends .itemFriendsInfo{
+  position: relative;
+}
+#friends #friendInfoBarney{
+  display: block;
+}
+/*#friends .itemFriendsInfo.selected{
+  display: block;
+}*/
+#friends #wrapFriendsInfo .friendInfoImg {
+  display: inline-block;
+  /*padding: 45px 0;*/
+  vertical-align: top;
+}
+#friends #wrapFriendsInfo .friendInfoTxt{
+  display: inline-block;
+  font: 20px/16px 'barneyworldregular';
+  text-align: left;
+  color: #0097d7;
+  padding: 17px;
+}
+#friends #wrapFriendsInfo .friendInfoTxt h1 {
+  border-bottom: 2px solid #0696D7;
+  color: #C6168D;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0 0 5px;
+}
+#friends #wrapFriendsInfo .friendInfoTxt ul{
+  color: #c6168d;
+  padding-left: 18px;
+  margin-top: 5px;
+}
+#friends #wrapFriendsInfo .friendInfoTxt span{
+  color: #0097d7;
+}
+#friends #wrapFriendsInfo .friendInfoGallery {
+  display: block;
+  padding: 20px;
+}
+#friends #wrapFriendsInfo .friendInfoGallery img{
+  width: 30%;
+  height: auto;
+  border: 2px solid #ffffff;
+  max-width: 150px;
+}
+#friends #wrapFriendsInfo .friendInfoGallery img.img1{
+  transform:rotate(-10deg);
+  z-index: 3;
+}
+#friends #wrapFriendsInfo .friendInfoGallery img.img2{
+  transform:rotate(3deg);
+  z-index: 2;
+}
+#friends #wrapFriendsInfo .friendInfoGallery img.img3{
+  transform:rotate(-5deg);
+  z-index: 1;
+}
+#friends #friendInfoBarney .friendInfoImg{
+  padding: 19px 0 20px;
+}
+#friends #friendInfoBabyBop .friendInfoImg{
+  padding: 35px 0;
+}
+#friends #friendInfoRiff .friendInfoImg{
+  padding: 33px 0 34px;
+}
+#friends #friendInfoBJ .friendInfoImg{
+  padding: 40px 0 41px;
+}
+/* ==========================================================================
+   Videos
+   ========================================================================== */
+
+#videos .main-container-bg{
+  background: url('bg_friends_768.jpg') no-repeat scroll center -130px #68cbf8;
+}
+#videos .pageTitle{
+  background-color: rgba(250, 241, 255, 0.53);
+}
+#videos #wrapVideoPlayer {
+  border: 8px solid #0696D7;
+  border-radius: 15px;
+  box-shadow: 3px 4px 5px 0 rgba(153, 202, 229, 0.33), 0 0 1px 3px #026C99 inset;
+  max-width: 785px;
+  padding: 3px;
+  width: 95%;
+  margin: 37px auto 25px;
+  position: relative;
+  z-index: 97;
+  /*display: none;*/
+}
+#videos #wrapVideoPlayer iframe {
+  border-radius: 7px 7px 0 0;
+  height: 180px;
+  display: block;
+  width: 100%;
+}
+#videos #wrapVideoPlayer .videoTitle {
+  background-color: #007DC3;
+  border-radius: 0 0 4px 4px;
+  color: #FFFFFF;
+  font: 15px/15px 'barneyworldregular';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding: 5px 0;
+}
+#videos #wrapVideoPlayer .videoTitle span{
+  padding: 0 5px;
+}
+#videos #videoCategoryMenu{
+  font: 20px/20px 'barneyworldregular';
+  padding: 90px 0 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -85px;
+}
+#videos #videoCategoryMenu .videoCat{
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  position:absolute;
+}
+#videos #videoCategoryMenu .videoCat:hover{
+  color: #c6168d;
+}
+#videos #videoCategoryMenu .videoCat.selected{
+  color: #c6168d;
+}
+#videos #videoCategoryMenu span{
+  color: #c6168d;
+  font: 20px/20px Arial;
+}
+#videos .itemPlayList{
+  display: inline-block;
+  width: 175px;
+  overflow: hidden;
+  margin: 4px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  box-shadow:         4px 4px 6px 0px rgba(0, 0, 0, 0.24);
+  border: 4px solid #8cd2f4;
+}
+#videos #wrapPlayListGrid{
+  max-width: 970px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;  
+}
+#videos .itemPlayList img{
+  border-radius: 10px;
+}
+#videos .itemPlayList .videoTitle {
+  background-color: rgba(0, 125, 195, 0.84);
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  color: #FFFFFF;
+  font: 15px/16px 'barneyworldregular';
+  left: 0;
+  padding: 5px 5px 20px;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 165px;
+}
+#videos .fillBlank{
+  display: inline-block;
+  width: 183px;
+  overflow: hidden;
+  margin: 4px;
+  position: relative;
+}
+#videos .playing{
+  border-color: #c6168d;
+}
+#videos .playingTitle{
+  background-color: #ac2592;
+  border-radius: 0 0 5px 5px;
+  bottom: 0;
+  color: #FFFFFF;
+  font: 15px/16px 'barneyworldregular';
+  left: 0;
+  padding: 5px 5px 20px;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 165px;
+  z-index: 99;
+  display: none;
+}
+#videos .playing .playingTitle{
+  display: block;
+}
+/* ==========================================================================
+   Games
+   ========================================================================== */
+#games .main-container-bg{
+  background: #ffba35;
+}
+#games .pageTitle{
+  background-color: rgba(245, 245, 196, 0.53);
+  position: relative;
+  z-index: 98;
+}
+#games .main.wrapper{
+  text-align: center;
+}
+#games .wrapGames{
+  margin: 20px auto;
+  max-width: 480px;
+}
+#games .wrapGame{
+  border: 8px solid #0696D7;
+  border-radius: 15px;
+  box-shadow: 3px 4px 5px 0 rgba(153, 202, 229, 0.33), 0 0 1px 3px #026C99 inset;
+  padding: 3px;
+  position: relative;
+  display: inline-block;
+  width: 270px;
+  height: 239px;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+#games .wrapGame.featured{
+  max-width: 853px;
+  margin: 30px auto 20px;
+  width: 95%;
+}
+#games .wrapGame img{
+  border-radius: 0 0 5px 5px;
+  display: block;
+  width: 100%;
+}
+#games .wrapGame span {
+  background-color: #0696D7;
+  border-radius: 5px 5px 0 0;
+  color: #FFFFFF;
+  display: block;
+  font: 22px/20px 'barneyworldregular';
+  overflow: hidden;
+  padding: 5px 15px 3px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#games .wrapGame.notFeat{
+  display: inline-block;
+  max-width: 405px;
+  width: 92%;
+  margin-bottom: 30px;
+}
+#games .wrapGameNotFeat {
+  background-color: #00AB67;
+  padding: 85px 0 30px;
+  margin-top: -65px;
+}
+#games .btnPlay {
+  background-color: #C91D82;
+  border-radius: 5px;
+  bottom: 15px;
+ /* box-shadow: 2px 2px 0 3px #30348D;*/
+  box-shadow:         2px 2px 0px 3px rgba(48, 52, 141, 1);
+  color: #FFFFFF;
+  font: 28px/49px 'barneyworldregular';
+  /*padding: 10px 54px;*/
+  position: absolute;
+  cursor: pointer;
+  right: 28px;
+  text-align: center;
+  width: 217px;
+  height: 44px;
+}
+#games .btnPlay img {
+  display: inline-block;
+  margin: 7px;
+  vertical-align: top;
+  width: auto;
+}
+#games .wrapGameTitle, #games #letters{
+  display: none;
+}
+#games .game-container{
+    background: rgba(255,255,255,0.5);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+/* ==========================================================================
+   Activities
+   ========================================================================== */
+#activities .main-container-bg{
+  background: #facf99;
+  overflow: auto;
+}
+
+#activities h1 {
+  background-color: rgba(252, 219, 178, 0.85);
+  color: #FDE4C5;
+  margin: 0;
+  padding: 15px 0 0 15px;
+}
+#activities h1 span{
+  color: #c6168d;
+}
+#activities .pageTitle .wrapper{
+  position: relative;
+  overflow: auto;
+}
+#activities #paintBrush {
+  top: -33px;
+  left: 0;
+  position: absolute;
+  transition: left 0.15s ease;
+}
+#activities #activityCategoryMenu{
+  font: 15px/20px 'barneyworldregular';
+  color: #0089c4;
+  background-color: rgba(252, 219, 178, 0.47);
+  text-align: right;
+  padding: 5px 15px 0;
+}
+#activities #activityCategoryMenu .activityCat{
+  display: inline-block;
+  color: #0089c4;
+  cursor: pointer;
+}
+#activities #activityCategoryMenu .activityCat:hover{
+  color: #c6168d;
+}
+#activities #activityCategoryMenu .activityCat.selected{
+  color: #c6168d;
+}
+#activities #activityCategoryMenu span{
+  color: #8bd1f4;
+  font-family: Arial;
+}
+#activities .ActivityListGrid{
+  max-width: 980px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;  
+}
+#activities #puzzleGrid{
+  text-align: center;  
+}
+
+#activities #triviaGrid{
+  text-align: center;  
+}
+#activities .itemActivityList{
+  display: inline-block;
+  width: 224px;
+  overflow: hidden;
+  margin: 4px;
+  cursor: pointer;
+  height: 133px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow:         4px 4px 6px 0px rgba(0, 0, 0, 0.24);
+  border: 4px solid #8cd2f4;
+}
+#activities .itemActivityList img{
+  border-radius: 10px;
+}
+#activities .itemActivityList img.download {
+  left: 80px;
+  position: absolute;
+  top: 25px;
+}
+#activities .itemActivityList .activityTitle {
+  background-color: rgba(0, 125, 195, 0.84);
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  color: #FFFFFF;
+  font: 15px/16px 'barneyworldregular';
+  left: 0;
+  padding: 10px 5px 10px;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 215px;
+}
+#activities .fillBlank{
+  display: inline-block;
+  width: 224px;
+  overflow: hidden;
+  margin: 8px;
+  position: relative;
+}
+#activities .activityCatGrid{
+  display: none;
+  
+}
+#activities .ActivityListGrid{
+  margin-top: 45px;
+}
+#activities .activityCatGrid.selected{
+  display: block;
+}
+/* ==========================================================================
+   Parents   heyy.
+   ========================================================================== */
+#parents .main-container-bg{
+  background: #ffb65e;
+  overflow: auto;
+}
+#parents .pageTitle{
+  background-color: rgba(255, 255, 255, 0.25);
+  position: relative;
+  z-index: 98;
+}
+#parents .pageTitle .wrapper{
+  position: relative;
+  overflow: auto;
+}
+#parents #parentsCategoryMenu{
+  font: 16px/20px 'barneyworldregular';
+  color: #0089c4;
+  background-color: rgba(252, 219, 178, 0.47);
+  text-align: right;
+  padding: 5px 15px 0;
+}
+#parents #parentsCategoryMenu .parentsCat{
+  display: inline-block;
+  color: #0089c4;
+  cursor: pointer;
+}
+#parents #parentsCategoryMenu span{
+  color: #8bd1f4;
+  font-family: Arial;
+}
+#parents #tuneinSec img {
+  box-shadow:         4px 4px 5px 0px rgba(198, 22, 141, 0.33), inset 0px 0px 4px 5px rgba(156, 13, 110, 1);;
+  border: 6px solid #c6168d;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  border-radius: 80px; 
+  vertical-align: top;
+  margin-right:5px; 
+}
+#parents .main-container-bg .wrapper p{
+  display: inline-block;
+  text-align: left;
+  font: 20px/22px 'barneyworldregular';
+  color: #0089c4;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+#parents .main-container-bg #tuneinSec p a{
+  color: #e26800;
+}
+#parents .main-container-bg .wrapper p a, #parents .main-container-bg #tuneinSec p a.youtubeLink {
+  color: #c6168d;
+}
+#parents .wrapSecCont{
+  margin: 10px 0 50px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#parents .parentsSec h2{
+  margin-bottom: 15px;
+  text-align: left;
+}
+#parents .ParentsListGrid{
+  max-width: 980px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;  
+}
+#parents .itemActivityList{
+  display: inline-block;
+  width: 224px;
+  overflow: hidden;
+  margin: 2px;
+  cursor: pointer;
+  height: 133px;
+  position: relative;
+  border-radius: 18px;
+  box-shadow:         4px 4px 6px 0px rgba(0, 0, 0, 0.24);
+  border: 4px solid #f58220;
+}
+#parents .itemActivityList img{
+  border-radius: 10px;
+}
+#parents .itemActivityList img.download {
+  left: 80px;
+  position: absolute;
+  top: 25px;
+}
+#parents .itemActivityList .activityTitle {
+  background-color: rgba(249, 161, 71, 0.99);
+  border-radius: 0 0 5px 5px;
+  bottom: 0;
+  color: #FFFFFF;
+  font: 15px/16px 'barneyworldregular';
+  left: 0;
+  padding: 10px 5px 10px;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 215px;
+}
+#parents .fillBlank{
+  display: inline-block;
+  width: 224px;
+  overflow: hidden;
+  margin: 8px;
+  position: relative;
+}
+#parents a.parentCatLink{
+  display: none;
+}
+#parents #acitivityParSec, #parents #aboutSec, #parents #newsSec{
+    display: none;
+  } 
+#parents #aboutSec img{
+  width:300px;
+  height: 207px; 
+  vertical-align: top;
+  display: inline-block;
+}
+#parents .main-container-bg #aboutSec .wrapText{
+  display: inline-block;
+}
+#parents #newsSec {
+  border: none;
+}
+#parents #newsSec .wrapNews img{
+  box-shadow:         4px 4px 6px 0px rgba(0, 0, 0, 0.24);
+  border: 4px solid #f58220;
+  border-radius: 10px;
+  width: 300px;
+  height: 157px;
+  margin-right: 10px;
+  display: inline-block;
+}
+#parents #newsSec .wrapNotFirstNews{
+  margin-top: 22px;
+}
+#parents #newsSec .wrapNews p span {
+  color: #c6168d;
+}
+#parents #newsSec .wrapNews {
+  text-align: left;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+  #home .wrapPromos {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+  }
+  #home .main-container .wrapSlider .bgSlide {
+    bottom: 76px;
+  }
+  #home .bx-wrapper .bx-controls-direction a{
+    top: 45%;
+  }
+  #home .bx-pager.bx-default-pager {
+    display: block;
+  }
+  #home .bxslider span{
+    height: auto;
+  }
+/*  #home .bx-clone {
+    display: none;
+  }*/
+  #home .bx-wrapper .bx-caption {
+    padding: 15px 50px;
+    text-align: center;
+    width: 226px;
+  }
+  #home .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_home_768.jpg') no-repeat scroll center -11px #00ab67;
+  }
+  #friends .itemFriendsMenu{
+    height: 100px;
+    border: 5px solid #00ab67;
+    margin-left: 1%;
+    width: 100px;
+  }
+  #friends #wrapFriendsInfo{
+    margin-bottom: 45px;
+  }
+  #friends #wrapFriendsInfo .friendInfoTxt{
+    width: 42%;
+  }
+  #videos #wrapVideoPlayer iframe {
+    height: 215px;
+  }
+  #videos #wrapVideoPlayer {
+    margin-bottom: 35px;
+    width: 90%;
+  }
+  #videos #wrapPlayListGrid{
+    background-color: transparent;
+  }
+  #videos #videoCategoryMenu{
+    background-color: transparent;
+  }
+  #videos #menu-button{
+    top: -52px;
+  }
+  #videos .nav-container{
+    margin-top: 2px;
+  }
+  #games .wrapGame.notFeat{
+    display: inline-block;
+    margin: 10px;
+  }
+  #activities .pageTitle{
+    background-color: rgba(252, 219, 178, 0.85);
+	height: 50px;
+  }
+  #activities .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_activities_768.jpg') no-repeat scroll center -120px #facf99;
+  }
+  #activities h1{
+    float: left;
+    background-color: transparent;
+  }
+  #activities #activityCategoryMenu{
+    float: right;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 14px;
+
+  }
+  nav li:first-child {
+      margin-left: 0 !important;
+  }
+  nav li:last-child {
+      margin-right: 0;
+  }
+  #parents .parentsSec{
+    border-bottom: 3px dotted #ffffff;
+  }
+  #parents #tuneinSec img {
+    width: 130px;
+    height: 130px;
+  }
+  #parents a.parentCatLink{
+    display: block;
+  }
+  #parents #acitivityParSec, #parents #aboutSec, #parents #newsSec{
+    display: block;
+  } 
+  #parents #aboutSec img{
+    width:351px;
+    height: 242px; 
+  }
+  #parents #aboutSec{
+    margin-top: 25px;
+  }
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+  .oldie nav a {
+      margin: 0 0.7%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #home .promo{
+    display: inline-block;
+  }
+  #home #des3{
+    display: none;
+  }
+  #home .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_home_980.jpg') no-repeat scroll center -253px transparent;
+  }
+  #home .main-container{
+    background-color: #00ab67;
+  }
+  #friends .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_friends_768.jpg') no-repeat scroll center -155px transparent;
+  }
+  #friends #wrapFriendsMenu{
+    background-color: transparent;
+  }
+  #friends .itemFriendsMenu{
+    height: 167px;
+    width: 167px;
+    border: 6px solid #00ab67;
+  }
+  #friends #wrapFriendsInfo{
+    margin-bottom: 85px;
+    margin-top: 40px;
+  }
+  .main-container .main-container-bg .pageTitle h1{
+    font-size: 33px;
+  }
+  #friends #wrapFriendsInfo .friendInfoTxt{
+    width: 61%;
+    float: right;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  #friends #wrapFriendsInfo .friendInfoGallery {
+    bottom: -2px;
+    position: absolute;
+    right: 0;
+    width: 61%;
+  }
+  #friends #friendInfoBarney .friendInfoImg{
+    padding: 4px 0 5px;
+  }
+  #videos #wrapVideoPlayer iframe {
+    height: 360px;
+  }
+  #videos #wrapVideoPlayer {
+    margin: 25px auto 40px;
+    width: 700px;
+  }
+  #games .wrapGame.notFeat{
+    width: 348px;
+    margin: 5px;
+  }
+  #games .wrapGames {
+    text-align: left;
+    max-width: 630px;
+  }
+  #games #letters{
+    position: absolute;
+  }
+  #games #letters .letter {
+    font: 44px/58px 'barneyworldregular';
+    height: 58px;
+    position: absolute;
+    text-align: center;
+    width: 58px;
+  }
+  #games #letter1 {
+    color: #D7F0FE;
+    left: 101px;
+    text-shadow: 2px 2px 0 rgba(0, 82, 161, 0.75);
+    top: 226px;
+  }
+  #games #letter2 {
+    color: #83FCCC;
+    left: 174px;
+    text-shadow: 2px 2px 0 rgba(0, 129, 57, 0.75);
+    top: 219px;
+  }
+  #games #letter3 {
+    color: #C91D82;
+    left: 235px;
+    text-shadow: 2px 2px 0 rgba(220, 108, 160, 0.75);
+    top: 224px;
+    transform: rotate(-14deg);
+  } 
+  #games #letter4 {
+    color: #E22724;
+    left: 306px;
+    text-shadow: 2px 2px 0 rgba(210, 85, 20, 0.75);
+    top: 212px;
+  }
+  #games #letter5 {
+    color: #D8CDF8;
+    left: 374px;
+    text-shadow: 2px 2px 0 rgba(53, 33, 121, 0.75);
+    top: 224px;
+    transform: rotate(8deg);
+  }
+  #games #letter6 {
+    color: #007DC3;
+    left: 434px;
+    text-shadow: 2px 2px 0 rgba(123, 128, 189, 0.75);
+    top: 217px;
+  }
+  #activities .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_activities_980.jpg') no-repeat scroll center -120px #facf99;
+  }
+  #activities #activityCategoryMenu{
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  #games .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_games_768.jpg') no-repeat scroll center -167px #ffba35;
+  }
+  #games .wrapGameTitle{
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 530px;
+     margin: -45px auto 0; 
+  }
+  #logo {
+      width: 161px;
+  }
+  .nav-container {
+    float: right;
+    margin-right: 15px;
+    display: block;
+    position: relative;
+    width: auto;
+    background-color: #9edfff;
+    margin-top: 0;
+  }
+  .nav-container nav ul {
+    position: relative;
+    top: 7px;
+    z-index: 0;
+    height: auto;
+    overflow: visible;
+    width: auto;
+    margin: 0;
+  }
+  .nav-container nav ul li{
+    margin-bottom: 0; 
+  }
+  .nav-container ul li#navGames{
+    margin-left: 25px;
+  }
+  .nav-container ul li#navActivities{
+    margin-left: 45px;
+  }
+  #menu-button {
+    display: none;
+  }
+  #home .main-container .imgBarney{
+    display: block;
+    width: 23%;
+    margin: 70px 0 75px 10px;
+    vertical-align: text-bottom;
+    float: left;
+  }
+  #home .main-container .wrapSlider{
+    width: 72%;
+    margin: -600px 5px 0 15px;
+    float: left;
+    display: block;
+  }
+  #parents #parentsCategoryMenu{
+    float: right;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  #parents h1{
+    float: left;
+  }
+  #parents .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_parents_980.jpg') no-repeat scroll center 0 #ffb65e;
+  }
+  .main-container .main-container-bg h2{
+    font: 28px/28px 'barneyworldregular';
+  }
+  #parents #parentsCategoryMenu{
+    font: 19px/20px 'barneyworldregular';
+  }
+  #parents #tuneinSec img {
+    width: 160px;
+    height: 160px;
+  }
+  #parents #tuneinSec .tuneinPic2{
+    display: none;
+  }
+  #parents .main-container-bg #tuneinSec p{
+    width: 545px;
+  }
+  #parents .main-container-bg #aboutSec .wrapText{
+    width: 375px;
+  }
+  #parents #aboutSec img{
+    vertical-align: super;
+  }
+  #parents .main-container-bg #newsSec p{
+    width: 395px;
+    vertical-align: top;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #friends .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_friends_980.jpg') no-repeat scroll center -130px #9dd05b;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  #home #des3{
+    display: inline-block;
+  }
+  #home .main-container{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_rep_home.png') repeat-x scroll 0 -240px #00ab67;
+  }
+  #home .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_home_980.jpg') no-repeat scroll center -240px transparent;
+  }
+  #friends .main-container{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_rep_home.png') repeat-x scroll 0 -142px #00ab67;
+  }
+  
+  #friends .itemFriendsMenu{
+    height: 195px;
+    width: 195px;
+    border: 7px solid #00ab67;
+    margin-left: 2%;
+  }
+  .main-container .main-container-bg .pageTitle h1{
+    font-size: 38px;
+    line-height: 38px;
+    margin-top: 10px; 
+  }
+  #friends #wrapFriendsInfo{
+    margin-bottom: 110px;
+    margin-top: 10px;
+  }
+  #videos #wrapVideoPlayer iframe {
+    height: 445px;
+  }
+  #videos #wrapVideoPlayer {
+    margin-bottom: 30px;
+    width: 783px;
+  }
+  #videos .itemPlayList{
+    margin: 5px;
+    width: 224px;
+  }
+  #videos .itemPlayList .videoTitle{
+    width: 214px;
+    bottom: -45px;
+    transition: bottom 1.0s ease;
+  }
+  #videos .playingTitle{
+    width: 214px;
+  }
+  #videos .itemPlayList:hover>.videoTitle{
+    bottom: 0;
+  }
+  #videos .fillBlank{
+    width: 233px;
+  }
+  #videos #videoCategoryMenu{
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+
+  #games .main-container{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_rep_games.png') repeat-x scroll 0 -125px #ffba35;
+  }
+  #games .main-container-bg{
+    background: url('/web/20160822151959im_/http://play.barney.com/usa/Resources/Images/bg_games_980.jpg') no-repeat scroll center -125px transparent;
+  }
+  #games .wrapGame.notFeat{
+    width: 405px;
+    margin: 10px;
+  }
+  #games #letters .letter {
+    font: 52px/68px 'barneyworldregular';
+    height: 68px;
+    position: absolute;
+    text-align: center;
+    width: 68px;
+  }
+  #games #letter1 {
+    color: #D7F0FE;
+    left: 119px;
+    text-shadow: 2px 2px 0 rgba(0, 82, 161, 0.75);
+    top: 267px;
+  }
+  #games #letter2 {
+    color: #83FCCC;
+    left: 205px;
+    text-shadow: 2px 2px 0 rgba(0, 129, 57, 0.75);
+    top: 259px;
+  }
+  #games #letter3 {
+    color: #C91D82;
+    left: 278px;
+    text-shadow: 2px 2px 0 rgba(220, 108, 160, 0.75);
+    top: 264px;
+    transform: rotate(-14deg);
+  }
+  #games #letter4 {
+    color: #E22724;
+    left: 360px;
+    text-shadow: 2px 2px 0 rgba(210, 85, 20, 0.75);
+    top: 250px;
+  }
+  #games #letter5 {
+    color: #D8CDF8;
+    left: 440px;
+    text-shadow: 2px 2px 0 rgba(53, 33, 121, 0.75);
+    top: 266px;
+    transform: rotate(8deg);
+  }
+  #games #letter6 {
+    color: #007DC3;
+    left: 510px;
+    text-shadow: 2px 2px 0 rgba(123, 128, 189, 0.75);
+    top: 257px;
+  }
+  #activities #activityCategoryMenu{
+    margin-top: 15px;
+  }
+  #activities .itemActivityList .activityTitle{
+    width: 214px;
+    bottom: -45px;
+    transition: bottom 1.0s ease;
+  }
+  #activities .itemActivityList:hover>.activityTitle{
+    bottom: 0;
+  }
+  #activities .itemActivityList img.download{
+    display: none;
+  }
+  #activities .itemActivityList:hover>img.download{
+    display: block;
+  }
+  #games .wrapGameTitle{
+    width: 624px;
+    margin: -45px 0 0; 
+  }
+  #games .wrapGames{
+    max-width: 960px; 
+  }
+  .wrapper {
+      width: 980px; 
+      margin: 0 auto;
+  }
+  #logo {
+    width: 177px;
+  }
+  nav a {
+    height: 75px;
+    width: 75px;
+  }
+
+  nav a span {
+    font: 22px/20px 'barneyworldregular';
+  }
+  #parents #tuneinSec .tuneinPic2{
+    display: inline-block;
+  }
+  #parents .main-container-bg #tuneinSec p{
+    width: 550px;
+  }
+  #parents #aboutSec img{
+    width:437px;
+    height: 301px; 
+  }
+  #parents .main-container-bg #aboutSec .wrapText{
+    width: 480px;
+  }
+  #parents #aboutSec img{
+    vertical-align: top;
+  }
+  #parents .main-container-bg #newsSec p{
+    width: 625px;
+  }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+#videos #videoCategoryMenu .videoCat.selected
+{
+    left:15px;
+    }
+}
+/*
+     FILE ARCHIVED ON 15:19:59 Aug 22, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:08:44 Nov 02, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 72.649
+  exclusion.robots: 0.25
+  exclusion.robots.policy: 0.236
+  cdx.remote: 0.083
+  esindex: 0.011
+  LoadShardBlock: 42.256 (3)
+  PetaboxLoader3.datanode: 48.101 (4)
+  load_resource: 53.857
+  PetaboxLoader3.resolve: 43.803
+*/
